@@ -16,9 +16,9 @@
 
     <form id="quiz">
       <div class="form-group">
-      <label for="age">Age</label>
-      <input id="age" type="text" />
-    </div>
+        <label for="age">Age</label>
+        <input id="age" type="text" />
+      </div>
 
       <label for="gender">Gender:</label>
       <select class="form-control" id="gender">
@@ -30,40 +30,74 @@
       <!-- height -->
       <!-- <div class="row"> -->
 
-        <div class="form-row">
-          <div class="col-md-6 mb-3">
-            <input type="text" class="form-control" id="foot" placeholder="Feet">
-          </div>
-          <div class="col-md-6 mb-3">
-            <input type="text" class="form-control" id="inch" placeholder="Inches">
-          </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <input type="text" class="form-control" id="foot" placeholder="Feet">
         </div>
+        <div class="col-md-6 mb-3">
+          <input type="text" class="form-control" id="inch" placeholder="Inches">
+        </div>
+      </div>
 
 
-  <!-- interests -->
-  <div class="form-group">
-    <label for="interests">What are your interests?</label>
-    <select class="form-control" id="interests">
-      <option value="outdoors">Outdoors</option>
-      <option value="food">Food</option>
-      <option value="creativity">Creativity</option>
-      <option value="sports">Sports</option>
-    </select>
+      <!-- interests -->
+      <div class="form-group">
+        <label for="interests">What are your interests?</label>
+        <select class="form-control" id="interests">
+          <option value="outdoors">Outdoors</option>
+          <option value="food">Food</option>
+          <option value="creativity">Creativity</option>
+          <option value="sports">Sports</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="intGender">Which gender(s) are you interested in?</label>
+        <select class="form-control" id="intGender">
+          <option value="men">Men</option>
+          <option value="women">Women</option>
+          <option value="allG">All</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-light">Submit!</button>
+    </form>
+
+
+  <div class="results">
+    <h4>Based on your responses, you are ideally suited to date:</h4>
+    <div class="mattMac">
+      <h5>Matthew McConaughey</h5>
+      <button type="button" class="btn btn-danger"><a href="https://en.wikipedia.org/wiki/Matthew_McConaughey">View
+          Bio</a></button>
+    </div>
+
+    <div class="celeb" id="bradPitt">
+      <h5>Brad Pitt</h5>
+      <button type="button" class="btn btn-danger"><a href="https://en.wikipedia.org/wiki/Brad_Pitt">View
+          Bio</a></button>
+    </div>
+
+    <div class="celeb" id="scarJoh">
+      <h5>Scarlett Johansson</h5>
+      <button type="button" class="btn btn-danger"><a href="https://en.wikipedia.org/wiki/Scarlett_Johansson">View
+          Bio</a></button>
+    </div>
+
+    <div class="celeb" id="jennLaw">
+      <h5>Jennifer Lawrence</h5>
+      <button type="button" class="btn btn-danger"><a href="https://en.wikipedia.org/wiki/Jennifer_Lawrence">View
+          Bio</a></button>
+    </div>
+
+    <div class="celeb" id="ellenDeg">
+      <h5>Ellen DeGeneres</h5>
+      <button type="button" class="btn btn-danger"><a href="https://en.wikipedia.org/wiki/Ellen_DeGeneres">View
+          Bio</a></button>
+    </div>
+
   </div>
-
-  <div class="form-group">
-    <label for="intGender">Which gender(s) are you interested in?</label>
-    <select class="form-control" id="intGender">
-      <option value="men">Men</option>
-      <option value="women">Women</option>
-      <option value="allG">All</option>
-    </select>
   </div>
-
-  <button type="submit" class="btn btn-light">Submit!</button>
-  </form>
-  </div>
-</div>
 </body>
 
 </html>

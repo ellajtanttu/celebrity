@@ -38,3 +38,20 @@ form {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.results {
+  background-color: rgba(238, 234, 197, 0.712);
+  padding: 3vh;
+  border-radius: 35px;
+  margin-top: 45px;
+  text-align: center;
+}
+
+.results {
+  display: none;
+}
+
+.celeb {
+  display: none;
+  padding-top: 15px;
+}
